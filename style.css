@@ -1,0 +1,62 @@
+@font-face {
+    font-family: '3dumbregular';
+    src: url('fonts/3Dumb-webfont.eot');
+    src: url('fonts/3Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/3Dumb-webfont.woff2') format('woff2'),
+         url('fonts/3Dumb-webfont.woff') format('woff'),
+         url('fonts/3Dumb-webfont.ttf') format('truetype'),
+         url('fonts/3Dumb-webfont.svg#3dumbregular') format('svg');
+
+}
+
+@font-face {
+    font-family: '2dumbregular';
+    src: url('fonts/2Dumb-webfont.eot');
+    src: url('fonts/2Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/2Dumb-webfont.woff2') format('woff2'),
+         url('fonts/2Dumb-webfont.woff') format('woff'),
+         url('fonts/2Dumb-webfont.ttf') format('truetype'),
+         url('fonts/2Dumb-webfont.svg#2dumbregular') format('svg');
+}
+
+h1
+{
+    font-family: '2dumbregular','Times New Roman', Times, serif;
+    border: 4px #002F2F solid;
+    box-shadow: 5px 5px 3px #002F2F;
+    text-align: center;
+}
+
+h2
+{
+    color: whitesmoke;
+}
+
+h2:hover
+{
+    border-left: 3px #002F2F solid;
+}
+
+body{
+    background: url('img/fond.jpg') scroll repeat;
+}
+
+p, ul
+{
+    color: #002F2F;
+}
+
+.imagefloat
+{
+    float: right;
+}
+
+a:visited
+{
+    color: #FC7F3C;
+}
+
+mark
+{
+    background-color: #FC7F3C;
+}
